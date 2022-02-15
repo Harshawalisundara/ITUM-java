@@ -3,8 +3,14 @@ package com.itum;
 public class Main {
 
     public static void main(String[] args){
-        System.out.println("hello world");
+       constuctor obj = new constuctor();
     }
+
 }
 
+class constuctor{
+    public constuctor(){
+        System.out.println("this is the constructor");
+    }
+}
 
